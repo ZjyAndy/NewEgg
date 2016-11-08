@@ -451,6 +451,7 @@
 }
 #middle .wrap #tab1 .topCont .topContRight {
   float: left;
+  width: 700px;
   *zoom: 1;
 }
 #middle .wrap #tab1 .topCont .topContRight:after {

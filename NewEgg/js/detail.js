@@ -1,3 +1,41 @@
+$(function(){
+	var itemId = search("itemId");
+	var sortId = search("sortId");
+	var sdiv = ""
+	$.get("data/carousel.json",function(d){
+		var json = d;
+		var detailJson = json[sortId]["childs"][itemId];
+		var bigImg ='';
+		var smallImg='';
+		for (var i=0;i<detailJson.big.length;i++){
+			bigImg+='<img src="'+detailJson["big"][i]+'"/>'
+		}
+		for (var j=0;j<detailJson.small.length;j++){
+			smallImg+='<li><a href="javascript:;"><img src="'+detailJson["small"][j]+'"/></a></li>'
+		}
+		var smallmo = '<div class="smallmove"></div><div class="bigfixpic">'+bigImg+'</div>'
+		$("#tab1>.topCont>.topContLeft>.big").html(bigImg+smallmo);
+		$("#tab1>.topCont>.topContLeft>.small>.smalllist>ul").html(smallImg);
+		$("#tab1>.topCont>.topContRight>h2").html(detailJson["information"]);
+		$("#tab1>.topCont>.topContRight>.explain>.brand>.aft").html(detailJson["name"]);
+		$("#tab1>.topCont>.topContRight>.explain>.pprice>.salepr").html(detailJson["price"]);
+		//itemId存到父元素上去  
+		$(".wrap").data("itemid",itemId);
+		$(".wrap").data("sortid",sortId);
+		
+		console.log($(".wrap").data())
+		//必须要在这里调用  不然获取不到li
+		pic();
+		//购物车数量改变
+		carNum();
+		//立即购买
+		rightNow();
+		//加入购物车
+		insert();
+		//放大镜
+		bigbig();
+	})
+}) 
 function search(name){
 	var ls = location.search;
 	ls = ls.replace(/^\?/,"");
@@ -11,13 +49,11 @@ function search(name){
 	return null;
 }
 //放大镜
-bigbig();
-pic()
 function bigbig(){
 	var $smallBox =$("#tab1>.topCont>.topContLeft>.big");
 	var $smallBox = $("#tab1>.topCont>.topContLeft>.big"); 
 	var $smallmove = $("#tab1>.topCont>.topContLeft>.big>.smallmove"); 
-	$smallBox.css("border-color","red")
+//	$smallBox.css("border-color","red")
 	var $bigBox = $("#tab1>.topCont>.topContLeft>.big>.bigfixpic");
 	var $bigPic = $("#tab1>.topCont>.topContLeft>.big>.bigfixpic>img");
 	$smallmove.css({"display":"none"});
@@ -92,7 +128,6 @@ function pic(){
 		$ul.animate({"left":$width*num*(-1)})
 	})
 }
-carNum()
 //购物车的数量
 function carNum(){
 	var $num = $("#num");
@@ -124,6 +159,10 @@ function carNum(){
 		if($num.val()==''){
 			$num.val(value);
 		}
+//		if($num.val().){
+//			
+//		}
+		console.log(typeof $num.val() +";")
 	})
 }
 
@@ -158,18 +197,20 @@ function bg(){
 		$(".topNavDis1 .navList li").eq($(this).index()).addClass("navBg").siblings().removeClass("navBg");
 	})
 }
-rightNow();
-insert();
+
 //立即购买
 function rightNow(){
+//	console.log($(".wrap").data())
 	$("#rightNowBuy").click(function(){
 		var shopInfo = $(".wrap").data();
 		shopInfo.count = parseInt($("#num").val());
 		addCar(shopInfo);
 		open("car.html");
+		
 	})
 }
 function insert(){
+//	console.log($(".wrap").data())
 	$("#insertCars").click(function(){
 		var shopInfo = $(".wrap").data();
 		shopInfo.count = parseInt($("#num").val());
@@ -181,57 +222,9 @@ function insert(){
 
 
 
-$(function() {
-	$('#fw1').mouseover(function() {
-		$('#fw').css('display', 'block');
-	});
-	$('#fw1').mouseout(function() {
-		$('#fw').css('display', 'none');
-	});
-	$('#fw').mouseover(function() {
-		$('#fw').css('display', 'block');
-	});
-	$('#fw').mouseout(function() {
-		$('#fw').css('display', 'none');
-	});
-	$('#myd1').mouseover(function() {
-		$('#myd').css('display', 'block');
-	});
-	$('#myd1').mouseout(function() {
-		$('#myd').css('display', 'none');
-	});
-	$('#myd').mouseover(function() {
-		$('#myd').css('display', 'block');
-	});
-	$('#myd').mouseout(function() {
-		$('#myd').css('display', 'none');
-	});
-});
 
-$(function() {
-	var oLi = $('#tz').find('li');
-	for(var i = 0; i < oLi.length; i++) {
-		$(oLi).hover(function() {
-			$(this).fadeIn(2000, function() {
-				$(this).css('background', '#295DD7');
-			});
-		}, function() {
-			$(this).fadeIn(2000, function() {
-				$(this).css('background', '#10286c');
-			});
-		});
-	};
-})
-$(function(){
-	$('#top').hover(function(){
-		$(this).css('width' , '100px');
-	} , function(){
-		$(this).css('width' , '12px');
-	});
-	$('#top').click(function(){
-		$("body,html").animate({'scrollTop': 0},1000)
-	})
-})
+
+
 
 
 

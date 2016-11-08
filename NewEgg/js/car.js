@@ -2,7 +2,7 @@ $(function(){
 	var cars = getcookie("cars");
 	cars = JSON.parse(cars)
 	var str = "";
-	$.get("carousel.json",function(d){
+	$.get("data/carousel.json",function(d){
 		for (var key in cars) {
 			console.log(cars +'cars')
 			var sortId = cars[key]["sortid"];

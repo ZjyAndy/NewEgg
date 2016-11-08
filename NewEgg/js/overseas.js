@@ -1,5 +1,5 @@
 $(function(){
-	$.get("carousel.json",function(data){
+	$.get("data/carousel.json",function(data){
 		var main = "";
 		for (var key in data) {
 			main = "";

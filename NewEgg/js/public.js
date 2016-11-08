@@ -1,26 +1,22 @@
 $(function() {
-	$('#fw1').mouseover(function() {
+	$('#fw1').hover(function(){
 		$('#fw').css('display', 'block');
-	});
-	$('#fw1').mouseout(function() {
+	},function(){
 		$('#fw').css('display', 'none');
 	});
-	$('#fw').mouseover(function() {
+	$('#fw').hover(function(){
 		$('#fw').css('display', 'block');
-	});
-	$('#fw').mouseout(function() {
+	},function(){
 		$('#fw').css('display', 'none');
 	});
-	$('#myd1').mouseover(function() {
+	$('#myd').hover(function(){
 		$('#myd').css('display', 'block');
-	});
-	$('#myd1').mouseout(function() {
+	} ,function(){
 		$('#myd').css('display', 'none');
 	});
-	$('#myd').mouseover(function() {
+	$('#myd1').hover(function(){
 		$('#myd').css('display', 'block');
-	});
-	$('#myd').mouseout(function() {
+	} ,function(){
 		$('#myd').css('display', 'none');
 	});
 });
@@ -108,19 +104,6 @@ $(function() {
 	};
 });
 
-$(function() {
-	$.ajax({
-		url: 'list.json',
-		type: 'GET',
-		success: function(res) {
-			var str = '';
-			for(var i = 0; i < res.length; i++) {
-				str += '<div><img src=' + res[i].img + '/><p><a href="#">' + res[i].str + '</a></p><p>' + res[i].price + '</p></div>';
-			};
-			$('#count').html(str);
-		}
-	});
-});
 
 $(function() {
 	var num1 = 1;
@@ -419,34 +402,14 @@ $(function() {
 		}, 1000);
 	});
 });
-
-$(function(){
-	$.ajax({
-		type:"GET",
-		url:"form.json",
-		success:function( data ){
-			var main = "";
-			var html = "";
-			for (var key in data) {
-				console.log(key)
-				var children = data[key].th
-				for (var k in children) {
-					var oTd = children[k].td
-					for (var j in oTd) {
-						main += '<td><a href="javascript:;">'+oTd[j]+' </a>&nbsp;&nbsp;|';
-					};
-					html += '<table class="a1" border="" cellspacing="0" cellpadding=""><tr><th>'+ children[k].tr +'</th>' + main + '</table>';
-				};
-			$(".listBox"+key).html(html);	
-			};
-		}
-	});
-});
 $(function(){ 
 	$('#list li').each(function(i){
 		$(this).mouseenter(function(){
 			$('#form>div').eq(i).css('display' , 'block');
 			$('#form>div').eq(i).siblings().css('display' , 'none');
+		});
+		$(this).mouseleave(function(){
+			$('#form>div').eq(i).css('display' , 'none');
 		});
 	});
 	$('#list').mouseleave(function(){
@@ -459,13 +422,36 @@ $(function(){
 		$('#form>div').css('display' , 'none');
 	});
 });
+//$(function(){
+//	alert('苹果七手机处点击进入商品单页');
+//})
+
+$(function(){
+	$.ajax({
+		type:"get",
+		url:"data/list.json",
+		async:true,
+		success:function(res){
+			var str = '';
+			for(var i = 0; i < res.length; i++) {
+				str += '<div><img src=' + res[i].img + '/><p><a href="#">' + res[i].str + '</a></p><p>' + res[i].price + '</p></div>';
+			};
+			$('#count').html(str);
+		}
+	});
+})
 
 
 
-
-
-
-
+$(function() {
+	$.ajax({
+		type:"GET",
+		url:"data/form.json",
+		success:function( data ){
+			
+		}
+	});
+});
 
 
 
