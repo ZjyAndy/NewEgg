@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,
+body {
+  width: 100%;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.content {
+  width: 970px;
+  margin: auto;
+  *zoom: 1;
+}
+.content:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.textDec {
+  text-decoration: underline;
+}
+.color {
+  color: #FF6600;
+}
+.topLeft {
+  *zoom: 1;
+}
+.topLeft:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.topLeft > li {
+  float: left;
+}
+.topLeft > li > a {
+  display: block;
+  padding: 0 10px 0 20px;
+  background-image: url(../img/topIcon/tl.png);
+  background-repeat: no-repeat;
+}
+.topLeft .topA1 {
+  background-position: 3px 2px;
+}
+.topLeft .topA1:hover {
+  background-position: 3px -18px;
+  text-decoration: underline;
+}
+.topLeft .topA2 {
+  background-position: 3px -44px;
+}
+.topLeft .topA2:hover {
+  background-position: 3px -64px;
+  text-decoration: underline;
+}
+.topRight {
+  width: 510px;
+  float: right;
+}
+.topRight .welcom {
+  text-align: right;
+}
+.topRight .welcom > a:hover {
+  text-decoration: underline;
+}
+.topRight .order {
+  float: right;
+}
+.topRight .order > li {
+  float: left;
+}
+.topRight .order > li > a {
+  display: block;
+}
+.topRight .order > li .js {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+.topRight .order > li .js:hover {
+  text-decoration: underline;
+}
+.topRight .order > li .os {
+  padding-left: 7px;
+  padding-right: 20px;
+}
+.topRight .order > li .os:hover {
+  background: #fff;
+}
+#topNav {
+  padding: 5px 0;
+  background-color: #f1f1f1;
+  font-size: 13px;
+  border-bottom: 1px solid #e2e2e2;
+}
+#logo {
+  padding: 23px 0;
+}
+#logo a,
+#logo span {
+  display: block;
+  float: left;
+}
+#logo span {
+  border-left: 1px solid #D9D9D9;
+  font: 24px/49px microsoft yahei;
+  margin: 5px 0 0 25px;
+  padding-left: 26px;
+}
+#beginLogin {
+  *zoom: 1;
+  background: #f9f9f9;
+  height: 500px;
+  padding-top: 40px;
+}
+#beginLogin:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#beginLogin .left {
+  width: 500px;
+  float: left;
+}
+#beginLogin .right {
+  width: 360px;
+  float: right;
+  background: #FFF;
+  border: 1px solid #CCC;
+  padding: 20px 0;
+}
+#beginLogin .right .rightTop {
+  margin: 0 20px;
+}
+#beginLogin .right .rightTop h2 {
+  color: #333;
+  font-size: 18px;
+  position: relative;
+}
+#beginLogin .right .rightTop h2 > a {
+  width: 100px;
+  line-height: 23px;
+  text-align: right;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  color: #039;
+  font-weight: normal;
+}
+#beginLogin .right .rightTop .text {
+  *zoom: 1;
+  padding: 20px 20px 0 20px;
+  position: relative;
+}
+#beginLogin .right .rightTop .text:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#beginLogin .right .rightTop .text .span1 {
+  display: block;
+  width: 30px;
+  height: 31px;
+  line-height: 30px;
+  float: left;
+  border: 1px solid #CFCFCF;
+  background: url(../img/logIn/login_icon.png) no-repeat -1px -1px;
+}
+#beginLogin .right .rightTop .text .span2 {
+  display: block;
+  width: 30px;
+  height: 31px;
+  line-height: 30px;
+  float: left;
+  border: 1px solid #CFCFCF;
+  background: url(../img/logIn/login_icon.png) no-repeat -1px -61px;
+}
+#beginLogin .right .rightTop .text > input {
+  width: 250px;
+  vertical-align: middle;
+  margin-left: -4px;
+  height: 31px;
+  line-height: 30px;
+  text-indent: 5px;
+  border: 1px solid #CFCFCF;
+  color: #b7b7b7;
+  outline-color: #FF6600;
+}
+#beginLogin .right .rightTop .text > input:focus {
+  border-color: #FF6600;
+}
+#beginLogin .right .rightTop .forget {
+  *zoom: 1;
+  padding: 20px 20px 10px 20px;
+}
+#beginLogin .right .rightTop .forget:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#beginLogin .right .rightTop .forget > a {
+  display: block;
+  width: 100px;
+  font-size: 12px;
+  color: #039;
+  font-weight: normal;
+}
+#beginLogin .right .rightTop .forget > a:hover {
+  text-decoration: underline;
+}
+#beginLogin .right .rightTop .forget .save {
+  float: left;
+  text-align: left;
+}
+#beginLogin .right .rightTop .forget .fp {
+  float: right;
+  text-align: right;
+}
+#beginLogin .right .rightTop #rightNow {
+  margin: 0 20px;
+  background: #FF6600;
+  color: #fff;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 2px;
+  font-weight: bolder;
+}
+#beginLogin .right .rightTop #rightNow:hover {
+  background: orange;
+}
+#beginLogin .right .rightBto {
+  height: 100px;
+  margin: 30px 20px 0 20px;
+  background: red;
+  color: #666666;
+  font-size: 12px;
+  background: url(../img/logIn/tx.png) no-repeat 0 -5px;
+}
+#wrongPass,
+#wrongUser {
+  width: 300px;
+  color: #FF6600;
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  font-size: 12px;
+  display: none;
+}
+#footer {
+  width: 100%;
+  margin-top: 120px;
+}
+#footer .footCopy {
+  color: #666 ;
+  font-size: 12px;
+}
+#footer .footCopy .p1 {
+  text-align: center;
+  height: 45px;
+  margin-bottom: 5px;
+}
+#footer .footCopy .p1 a {
+  display: inline-block;
+  height: 45px;
+  background-image: url(../img/footIcon/certi20150925.png);
+  background-repeat: no-repeat;
+}
+#footer .footCopy .p1 :nth-child(1) {
+  width: 124px;
+}
+#footer .footCopy .p1 :nth-child(2) {
+  width: 117px;
+  background-position: 0 -91px;
+}
+#footer .footCopy .p1 :nth-child(3) {
+  width: 130px;
+  background-position: 0 -276px;
+  position: relative;
+}
+#footer .footCopy .p1 :nth-child(3) span {
+  color: #001b75;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  right: -13px;
+  bottom: 0;
+}
+#footer .footCopy .p1 :nth-child(4) {
+  width: 124px;
+  background-position: 0 -326px;
+}
+#footer .footCopy .p1 :nth-child(5) {
+  width: 124px;
+  background-position: 0 -376px;
+}
+#footer .footCopy .p2 {
+  text-align: center;
+  line-height: 30px;
+}
+#footer .footCopy .p2 a:hover {
+  text-decoration: underline;
+}

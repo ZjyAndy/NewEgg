@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,
+body {
+  width: 100%;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.content {
+  width: 970px;
+  margin: auto;
+  *zoom: 1;
+}
+.content:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.contentSeas {
+  width: 1220px;
+  margin: auto;
+  background: #fff;
+  *zoom: 1;
+}
+.contentSeas:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.textDec {
+  text-decoration: underline;
+}
+.color {
+  color: #FF6600;
+}
+.topLeft {
+  *zoom: 1;
+}
+.topLeft:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.topLeft > li {
+  float: left;
+}
+.topLeft > li > a {
+  display: block;
+  padding: 0 10px 0 20px;
+  background-image: url(../img/topIcon/tl.png);
+  background-repeat: no-repeat;
+}
+.topLeft .topA1 {
+  background-position: 3px 2px;
+}
+.topLeft .topA1:hover {
+  background-position: 3px -18px;
+  text-decoration: underline;
+}
+.topLeft .topA2 {
+  background-position: 3px -44px;
+}
+.topLeft .topA2:hover {
+  background-position: 3px -64px;
+  text-decoration: underline;
+}
+.topRight {
+  width: 510px;
+  float: right;
+}
+.topRight .welcom > a:hover {
+  text-decoration: underline;
+}
+.topRight .order {
+  float: right;
+}
+.topRight .order > li {
+  float: left;
+}
+.topRight .order > li > a {
+  display: block;
+}
+.topRight .order > li .js {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+.topRight .order > li .js:hover {
+  text-decoration: underline;
+}
+.topRight .order > li .os {
+  padding-left: 7px;
+  padding-right: 20px;
+}
+.topRight .order > li .os:hover {
+  background: #fff;
+}
+#topNav {
+  padding: 5px 0;
+  background-color: #f1f1f1;
+  font-size: 13px;
+  border-bottom: 1px solid #e2e2e2;
+}
+/*****************************************************************/
+#topSearch {
+  padding: 10px 0 13px 0;
+}
+#topSearch > a {
+  display: block;
+}
+#topSearch > a > img {
+  display: block;
+}
+#topSearch .al {
+  float: left;
+}
+#topSearch .ar {
+  float: right;
+}
+#topSearch .topSearchCenter {
+  width: 400px;
+  margin-left: 340px;
+  background: #fff;
+}
+#topSearch .topSearchCenter .p1 {
+  height: 32px;
+  border: 2px solid #ff6600;
+  *zoom: 1;
+}
+#topSearch .topSearchCenter .p1:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#topSearch .topSearchCenter .p1 > input {
+  width: 240px;
+  outline: none;
+  line-height: 32px;
+  margin-left: 5px;
+}
+#topSearch .topSearchCenter .p1 > a {
+  display: block;
+  width: 100px;
+  height: 34px;
+  line-height: 34px;
+  vertical-align: middle;
+  text-align: center;
+  background: #ff6600;
+  float: right;
+  color: #fff;
+  font-weight: 600;
+}
+#topSearch .topSearchCenter .p2 {
+  *zoom: 1;
+  padding: 10px 0 0 5px;
+}
+#topSearch .topSearchCenter .p2:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#topSearch .topSearchCenter .p2 a {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid ;
+  font-size: 13px;
+}
+/**************foot*****************************************************/
+#footer {
+  padding: 75px 0 0 0;
+}
+#footer .footList {
+  margin-left: 16px;
+  margin-bottom: 80px;
+  *zoom: 1;
+}
+#footer .footList:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#footer .footList > dl {
+  width: 182px;
+  height: 182px;
+  border-right: 1px solid #dbdbdb;
+  float: left;
+}
+#footer .footList > dl > dt,
+#footer .footList > dl dd {
+  margin-left: 20px ;
+}
+#footer .footList > dl > dt {
+  padding: 0 0 5px 30px;
+  color: #484848;
+  font-weight: 600;
+  background-image: url(../img/footIcon/helpcenter.gif);
+  background-repeat: no-repeat;
+}
+#footer .footList > dl > dd ul {
+  margin-left: 30px;
+  font-size: 12px;
+}
+#footer .footList > dl > dd ul li {
+  list-style-type: disc;
+  line-height: 23px;
+}
+#footer .footList dl:nth-of-type(2) > dt:nth-of-type(1) {
+  background-position: 0 -118px;
+}
+#footer .footList dl:nth-of-type(3) > dt:nth-of-type(1) {
+  background-image: url(../img/footIcon/specialservies.png);
+}
+#footer .footList dl:nth-of-type(4) > dt:nth-of-type(1) {
+  background-position: 0 -155px;
+}
+#footer .footList dl:nth-of-type(5) > dt:nth-of-type(1) {
+  background-position: 0 -191px;
+}
+#footer .footList .lastDl {
+  width: 220px;
+  border-right: none;
+}
+#footer .footCopy {
+  color: #666 ;
+  font-size: 12px;
+}
+#footer .footCopy .p1 {
+  text-align: center;
+  height: 45px;
+  margin-bottom: 5px;
+}
+#footer .footCopy .p1 a {
+  display: inline-block;
+  height: 45px;
+  background-image: url(../img/footIcon/certi20150925.png);
+  background-repeat: no-repeat;
+}
+#footer .footCopy .p1 :nth-child(1) {
+  width: 124px;
+}
+#footer .footCopy .p1 :nth-child(2) {
+  width: 117px;
+  background-position: 0 -91px;
+}
+#footer .footCopy .p1 :nth-child(3) {
+  width: 130px;
+  background-position: 0 -276px;
+  position: relative;
+}
+#footer .footCopy .p1 :nth-child(3) span {
+  color: #001b75;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  right: -13px;
+  bottom: 0;
+}
+#footer .footCopy .p1 :nth-child(4) {
+  width: 124px;
+  background-position: 0 -326px;
+}
+#footer .footCopy .p1 :nth-child(5) {
+  width: 124px;
+  background-position: 0 -376px;
+}
+#footer .footCopy .p2 {
+  text-align: center;
+  line-height: 30px;
+}
+#footer .footCopy .p2 a:hover {
+  text-decoration: underline;
+}
+/***********************************************/
+#banner {
+  background: #cbdde7;
+}
+#banner .contentSeas {
+  position: relative;
+}
+#banner .bannerpic {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  *zoom: 1;
+}
+#banner .bannerpic:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#banner .bannerpic .bannList {
+  width: 20000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  *zoom: 1;
+}
+#banner .bannerpic .bannList:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#banner .bannerpic .bannList li {
+  float: left;
+}
+#banner .bannerpic .bannList li img {
+  display: block;
+  float: left;
+  width: 1220px;
+  height: 400px;
+}
+#banner .menu {
+  width: 199px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 5px 5px 2px #888888;
+  position: absolute;
+  left: 50px;
+  top: 30px;
+}
+#banner .menu .msort h3 {
+  font-size: 14px;
+  line-height: 25px;
+}
+#banner .menu .msort span {
+  line-height: 20px;
+}
+#banner .menu .msort span > a {
+  font-size: 12px;
+  white-space: nowrap;
+}
+#blue {
+  background: url(../img/oversease/bluebg.png);
+}
+#blue img {
+  width: 100%;
+  display: block;
+}
+/**************************************************/
+#middle {
+  background: #cbdde7;
+}
+#middle .floor {
+  width: 100%;
+  overflow: hidden;
+}
+#middle .floor .floorlogo {
+  width: 1200px;
+  margin-left: 10px;
+  height: 60px;
+  float: left;
+  *zoom: 1;
+}
+#middle .floor .floorlogo:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .floor .floorlogo a {
+  display: block;
+  width: 200px;
+  float: left;
+  height: 60px;
+}
+#middle .floor .top {
+  height: 48px;
+  line-height: 60px;
+  width: 100%;
+  float: left;
+  border-bottom: 3px solid #2a4e68;
+  font-size: 28px;
+  padding-left: 30px;
+  color: #333;
+}
+#middle .floor .main {
+  *zoom: 1;
+  padding-left: 20px;
+  width: 100%;
+}
+#middle .floor .main:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .floor .main dl {
+  height: 380px;
+  width: 240px;
+  padding: 8px 0 12px;
+  background-color: #fff;
+  float: left;
+}
+#middle .floor .main dl dt {
+  width: 100%;
+  height: 200px;
+}
+#middle .floor .main dl dt img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+#middle .floor .main dl dd {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#middle .floor .main dl dd.pdinfo {
+  clear: both;
+  line-height: 1.3em;
+  padding-top: 6px;
+}
+#middle .floor .main dl dd.pdinfo .info {
+  height: 31px;
+  line-height: 1.3em;
+  overflow: hidden;
+  margin-top: 0;
+  font-size: 12px;
+}
+#middle .floor .main dl dd.pdinfo .prom {
+  font-size: 12px;
+  color: #628100;
+  height: 16px;
+  margin-top: 3px;
+  overflow: hidden;
+}
+#middle .floor .main dl dd.pdinfo .extraIcon {
+  font-size: 12px;
+  height: 15px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+#middle .floor .main dl dd.price {
+  padding-top: 10px;
+  padding-left: 80px;
+  margin-bottom: 8px;
+}
+#middle .floor .main dl dd.price strong {
+  font-size: 22px;
+  font-weight: normal;
+  padding-left: 54px;
+  margin-bottom: 8px;
+}
+#middle .floor .main dl dd.collect a{
+	background: url(../img/oversease/sprite_buyintimelimit.jpg) no-repeat 0 -93px;
+  color: #fff!important;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: 29px;
+  line-height: 28px;
+  margin: 10px auto;
+  width: 124px;
+  text-align: center;
+}
+#middle .floor .main dl dd.rightNow a {
+  background: url(../img/oversease/sprite_buyintimelimit.jpg) no-repeat 0 -93px;
+  color: #fff!important;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: 29px;
+  line-height: 28px;
+  margin: 0 auto;
+  width: 124px;
+  text-align: center;
+}
+#middle .floor .main dl dd.rightNow a:hover {
+  background-position: -128px -93px;
+  text-decoration: none;
+}
+#middle .floor1 {
+  padding-top: 20px;
+}
+#middle .floor1 .top {
+  background: url(../img/oversease/limitbuy.jpg) no-repeat;
+  border-bottom: none;
+}
+#middle .floor2 .floorlogo {
+  *zoom: 1;
+  background: url(../img/oversease/floor2logo.png) no-repeat;
+}
+#middle .floor2 .floorlogo:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .floor3 .floorlogo {
+  background: url(../img/oversease/floor3logo.png) no-repeat;
+}
+#middle .floor4 .floorlogo {
+  background: url(../img/oversease/floor4logo.png) no-repeat;
+}
+#middle .infor img {
+  display: block;
+  margin-left: -1px;
+}

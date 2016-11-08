@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,
+body {
+  width: 100%;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.content {
+  width: 970px;
+  margin: auto;
+  *zoom: 1;
+}
+.content:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.textDec {
+  text-decoration: underline;
+}
+.color {
+  color: #FF6600;
+}
+.topLeft {
+  *zoom: 1;
+}
+.topLeft:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.topLeft > li {
+  float: left;
+}
+.topLeft > li > a {
+  display: block;
+  padding: 0 10px 0 20px;
+  background-image: url(../img/topIcon/tl.png);
+  background-repeat: no-repeat;
+}
+.topLeft .topA1 {
+  background-position: 3px 2px;
+}
+.topLeft .topA1:hover {
+  background-position: 3px -18px;
+  text-decoration: underline;
+}
+.topLeft .topA2 {
+  background-position: 3px -44px;
+}
+.topLeft .topA2:hover {
+  background-position: 3px -64px;
+  text-decoration: underline;
+}
+.topRight {
+  width: 510px;
+  float: right;
+}
+.topRight .welcom {
+  text-align: right;
+}
+.topRight .welcom > a:hover {
+  text-decoration: underline;
+}
+.topRight .order {
+  float: right;
+}
+.topRight .order > li {
+  float: left;
+}
+.topRight .order > li > a {
+  display: block;
+}
+.topRight .order > li .js {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+.topRight .order > li .js:hover {
+  text-decoration: underline;
+}
+.topRight .order > li .os {
+  padding-left: 7px;
+  padding-right: 20px;
+}
+.topRight .order > li .os:hover {
+  background: #fff;
+}
+#topNav {
+  padding: 5px 0;
+  background-color: #f1f1f1;
+  font-size: 13px;
+  border-bottom: 1px solid #e2e2e2;
+}
+#logo {
+  padding: 23px 0;
+}
+#logo a,
+#logo span {
+  display: block;
+  float: left;
+}
+#logo span {
+  border-left: 1px solid #D9D9D9;
+  font: 24px/49px microsoft yahei;
+  margin: 5px 0 0 25px;
+  padding-left: 26px;
+}
+#beginRegister {
+  background: #f9f9f9;
+  height: 500px;
+}
+#beginRegister .pTop {
+  text-align: right;
+}
+#beginRegister .pTop > a {
+  color: #FF6600;
+}
+#beginRegister form {
+  width: 400px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+#beginRegister form .span1 {
+  width: 80px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: right;
+  padding-right: 40px;
+}
+#beginRegister form p {
+  padding: 10px 0;
+  position: relative;
+}
+#beginRegister form p input {
+  font-size: 16px;
+  border-radius: 3px;
+  outline: none;
+  height: 33px;
+}
+#beginRegister .span2 {
+  display: block;
+  position: absolute;
+  top: 48px;
+  left: 120px;
+  font-size: 12px;
+  display: none;
+  background: red;
+}
+#beginRegister #num {
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  padding: 10px 0;
+  margin-left: 50px;
+  background: #e1e1e1;
+  border-radius: 5px;
+}
+#beginRegister #refresh {
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  padding: 10px 0;
+  margin-left: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #e1e1e1;
+}
+#beginRegister #refresh:hover {
+  background: #FF6600;
+  color: #fff;
+}
+#beginRegister #register {
+  display: block;
+  width: 100px;
+  padding: 10px 0;
+  background: #e1e1e1;
+  text-align: center;
+  margin-left: 115px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#beginRegister #register:hover {
+  background: #FF6600;
+  color: #fff;
+}
+#footer {
+  width: 100%;
+  margin-top: 120px;
+}
+#footer .footCopy {
+  color: #666 ;
+  font-size: 12px;
+}
+#footer .footCopy .p1 {
+  text-align: center;
+  height: 45px;
+  margin-bottom: 5px;
+}
+#footer .footCopy .p1 a {
+  display: inline-block;
+  height: 45px;
+  background-image: url(../img/footIcon/certi20150925.png);
+  background-repeat: no-repeat;
+}
+#footer .footCopy .p1 :nth-child(1) {
+  width: 124px;
+}
+#footer .footCopy .p1 :nth-child(2) {
+  width: 117px;
+  background-position: 0 -91px;
+}
+#footer .footCopy .p1 :nth-child(3) {
+  width: 130px;
+  background-position: 0 -276px;
+  position: relative;
+}
+#footer .footCopy .p1 :nth-child(3) span {
+  color: #001b75;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  right: -13px;
+  bottom: 0;
+}
+#footer .footCopy .p1 :nth-child(4) {
+  width: 124px;
+  background-position: 0 -326px;
+}
+#footer .footCopy .p1 :nth-child(5) {
+  width: 124px;
+  background-position: 0 -376px;
+}
+#footer .footCopy .p2 {
+  text-align: center;
+  line-height: 30px;
+}
+#footer .footCopy .p2 a:hover {
+  text-decoration: underline;
+}

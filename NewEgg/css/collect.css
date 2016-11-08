@@ -1,0 +1,153 @@
+.tabtb {
+  border-top: 1px solid #bbb;
+}
+.tabbb {
+  border-bottom: 1px solid #bbb;
+}
+.tablb {
+  border-left: 1px solid #bbb;
+}
+#middle .tabbox {
+  border: 1px solid #bfbfbf;
+}
+#middle .margl {
+  margin-left: 10px;
+}
+#middle .information {
+  width: 285px;
+}
+#middle .information a {
+  font-size: 12px;
+}
+#middle .cent {
+  text-align: center;
+}
+#middle .num {
+  height: 22px;
+  width: 36px;
+  line-height: 22px;
+  border: 1px solid #bbb;
+  text-align: center;
+}
+#middle .spancs {
+  display: inline-block;
+  height: 22px;
+  position: relative;
+}
+#middle .span {
+  width: 13px;
+  height: 10px;
+  display: block;
+  line-height: 10px;
+  font-size: 9px;
+  text-align: center;
+  margin-left: 1px;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  position: absolute;
+}
+#middle .ics {
+  top: 6px;
+  left: 0px;
+}
+#middle .des {
+  top: 18px;
+  left: 0px;
+}
+#middle .smalladd {
+  color: #FF6600;
+}
+table {
+  border-collapse: collapse;
+}
+.allmoney {
+  padding-left: 15px;
+  margin: 20px 0;
+}
+#allmoney {
+  font-size: 19px;
+}
+.liji {
+  display: inline-block;
+  width: 140px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  color: #FFF;
+  background: #FF6600;
+  font-size: 20px;
+  margin-left: 15px ;
+  cursor: pointer;
+}
+.liji:hover {
+  background: orange;
+}
+#hotcrazy {
+  margin-top: 20px;
+}
+#hotcrazy .hc {
+  width: 968px;
+  height: 300px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+#hotcrazy .hc .hcTop {
+  height: 40px;
+}
+#hotcrazy .hc .hcTop span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  color: #FF6600;
+  border-bottom: 2px solid #f60;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+#hotcrazy .hc .hcBottom {
+  position: relative;
+  border-top: 2px solid #ccc;
+  margin-top: -2px;
+}
+#hotcrazy .hc .hcBottom .ul1 {
+  display: block;
+}
+#hotcrazy .hc .hcBottom ul {
+  margin-left: 20px;
+  *zoom: 1;
+  width: 2000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 30px 0;
+  display: none;
+  z-index: 1;
+}
+#hotcrazy .hc .hcBottom ul:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#hotcrazy .hc .hcBottom ul li {
+  width: 150px;
+  padding: 0 18px;
+  float: left;
+  font-size: 12px;
+}
+#hotcrazy .hc .hcBottom ul li img {
+  display: block;
+  width: 114px;
+  height: 108px;
+}
+#hotcrazy .hc .hcBottom ul li .price {
+  font-size: 14px;
+  color: #f60;
+  font-weight: bold;
+}
+#hotcrazy .hc .hcBottom ul li .title {
+  line-height: 25px;
+}

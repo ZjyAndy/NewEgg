@@ -1,0 +1,663 @@
+#main{
+	margin-bottom: 10px;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.content:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.textDec {
+  text-decoration: underline;
+}
+.color {
+  color: #FF6600;
+}
+.price {
+  font-size: 14px;
+  color: #f60;
+  font-weight: bold;
+}
+.h2 {
+  height: 38px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-right: none;
+  line-height: 36px;
+  border-bottom: 3px solid black;
+}
+.topLeft {
+  *zoom: 1;
+}
+.topLeft:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.topLeft > li {
+  float: left;
+}
+.topLeft > li > a {
+  display: block;
+  padding: 0 10px 0 20px;
+  background-image: url(../img/topIcon/tl.png);
+  background-repeat: no-repeat;
+}
+.topLeft .topA1 {
+  background-position: 3px 2px;
+}
+.topLeft .topA1:hover {
+  background-position: 3px -18px;
+  text-decoration: underline;
+}
+.topLeft .topA2 {
+  background-position: 3px -44px;
+}
+.topLeft .topA2:hover {
+  background-position: 3px -64px;
+  text-decoration: underline;
+}
+.topRight {
+  width: 510px;
+  float: right;
+}
+.topRight .welcom > a:hover {
+  text-decoration: underline;
+}
+.topRight .order {
+  float: right;
+}
+.topRight .order > li {
+  float: left;
+}
+.topRight .order > li > a {
+  display: block;
+}
+.topRight .order > li .js {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+.topRight .order > li .js:hover {
+  text-decoration: underline;
+}
+.topRight .order > li .os {
+  padding-left: 7px;
+  padding-right: 20px;
+}
+.topRight .order > li .os:hover {
+  background: #fff;
+}
+#topNav {
+  padding: 5px 0;
+  background-color: #f1f1f1;
+  font-size: 13px;
+  border-bottom: 1px solid #e2e2e2;
+}
+/*****************************************************************/
+#topSearch {
+  padding: 10px 0 13px 0;
+}
+#topSearch > a {
+  display: block;
+}
+#topSearch > a > img {
+  display: block;
+}
+#topSearch .al {
+  float: left;
+}
+#topSearch .ar {
+  float: right;
+}
+#topSearch .topSearchCenter {
+  width: 440px;
+  margin: auto;
+  background: #fff;
+}
+#topSearch .topSearchCenter .p1 {
+  height: 32px;
+  border: 2px solid #ff6600;
+  *zoom: 1;
+}
+#topSearch .topSearchCenter .p1:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#topSearch .topSearchCenter .p1 > input {
+  width: 330px;
+  outline: none;
+  line-height: 32px;
+  margin-left: 5px;
+}
+#topSearch .topSearchCenter .p1 > a {
+  display: block;
+  width: 100px;
+  height: 34px;
+  line-height: 34px;
+  vertical-align: middle;
+  text-align: center;
+  background: #ff6600;
+  float: right;
+  color: #fff;
+  font-weight: 600;
+}
+#topSearch .topSearchCenter .p2 {
+  *zoom: 1;
+  padding: 10px 0 0 5px;
+}
+#topSearch .topSearchCenter .p2:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#topSearch .topSearchCenter .p2 a {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid ;
+  font-size: 13px;
+}
+/**************foot*****************************************************/
+#footer {
+  padding: 75px 0 0 0;
+}
+#footer .footList {
+  margin-left: 16px;
+  margin-bottom: 80px;
+  *zoom: 1;
+}
+#footer .footList:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#footer .footList > dl {
+  width: 239px;
+  height: 182px;
+  border-right: 1px solid #dbdbdb;
+  float: left;
+}
+#footer .footList > dl > dt,
+#footer .footList > dl dd {
+  margin-left: 20px ;
+}
+#footer .footList > dl > dt {
+  padding: 0 0 5px 30px;
+  color: #484848;
+  font-weight: 600;
+  background-image: url(../img/footIcon/helpcenter.gif);
+  background-repeat: no-repeat;
+}
+#footer .footList > dl > dd ul {
+  margin-left: 30px;
+  font-size: 12px;
+}
+#footer .footList > dl > dd ul li {
+  list-style-type: disc;
+  line-height: 23px;
+}
+#footer .footList dl:nth-of-type(2) > dt:nth-of-type(1) {
+  background-position: 0 -118px;
+}
+#footer .footList dl:nth-of-type(3) > dt:nth-of-type(1) {
+  background-image: url(../img/footIcon/specialservies.png);
+}
+#footer .footList dl:nth-of-type(4) > dt:nth-of-type(1) {
+  background-position: 0 -155px;
+}
+#footer .footList dl:nth-of-type(5) > dt:nth-of-type(1) {
+  background-position: 0 -191px;
+}
+#footer .footList .lastDl {
+  width: 220px;
+  border-right: none;
+}
+#footer .footCopy {
+  color: #666 ;
+  font-size: 12px;
+}
+#footer .footCopy .p1 {
+  text-align: center;
+  height: 45px;
+  margin-bottom: 5px;
+}
+#footer .footCopy .p1 a {
+  display: inline-block;
+  height: 45px;
+  background-image: url(../img/footIcon/certi20150925.png);
+  background-repeat: no-repeat;
+}
+#footer .footCopy .p1 :nth-child(1) {
+  width: 124px;
+}
+#footer .footCopy .p1 :nth-child(2) {
+  width: 117px;
+  background-position: 0 -91px;
+}
+#footer .footCopy .p1 :nth-child(3) {
+  width: 130px;
+  background-position: 0 -276px;
+  position: relative;
+}
+#footer .footCopy .p1 :nth-child(3) span {
+  color: #001b75;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  right: -13px;
+  bottom: 0;
+}
+#footer .footCopy .p1 :nth-child(4) {
+  width: 124px;
+  background-position: 0 -326px;
+}
+#footer .footCopy .p1 :nth-child(5) {
+  width: 124px;
+  background-position: 0 -376px;
+}
+#footer .footCopy .p2 {
+  text-align: center;
+  line-height: 30px;
+}
+#footer .footCopy .p2 a:hover {
+  text-decoration: underline;
+}
+/****************************Middle*************************/
+#middle .topNav {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+#middle .topNav .navList {
+  *zoom: 1;
+}
+#middle .topNav .navList:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .topNav .navList li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 23px;
+}
+#middle .topNavDis {
+  background-color: #606982;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#middle .topNavDis .navList {
+  *zoom: 1;
+}
+#middle .topNavDis .navList:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .topNavDis .navList li a {
+  color: #fff;
+}
+#middle .topNavDis .navList li .fbg {
+  color: #000;
+}
+#middle .wrap {
+  margin-top: 20px;
+  width: 100%;
+}
+#middle .wrap #tab1 {
+  width: 100%;
+}
+#middle .wrap #tab1 .topCont {
+  width: 100%;
+  *zoom: 1;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+#middle .wrap #tab1 .topCont:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .wrap #tab1 .topCont .topContLeft {
+  width: 490px;
+  padding-top: 57px;
+  float: left;
+}
+#middle .wrap #tab1 .topCont .topContLeft .big {
+  width: 450px;
+  height: 340px;
+  position: relative;
+}
+#middle .wrap #tab1 .topCont .topContLeft .big > img {
+  display: block;
+  width: 450px;
+  height: 338px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#middle .wrap #tab1 .topCont .topContLeft .big .smallmove {
+  width: 200px;
+  height: 200px;
+  background: #CCCCCC;
+  opacity: .5;
+  filter: alpha(opacity=50);
+  position: absolute;
+  display: none;
+}
+#middle .wrap #tab1 .topCont .topContLeft .big .bigfixpic {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 500px;
+  top: 0;
+  background: #ccc;
+  overflow: hidden;
+}
+#middle .wrap #tab1 .topCont .topContLeft .big .bigfixpic > img {
+  display: block;
+  width: 900px;
+  height: 680px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small {
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small .smalllist {
+  width: 384px;
+  height: 64px;
+  position: relative;
+  margin: 0 0 0 35px;
+  overflow: hidden;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small .smalllist ul {
+  *zoom: 1;
+  width: 1000px;
+  position: absolute;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small .smalllist ul:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small .smalllist ul li {
+  float: left;
+  width: 80px;
+  height: 60px;
+  border: 2px solid #fff;
+  margin: 0 16px 10px 0;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small .smalllist ul li img{
+	width: 80px;
+	height: 60px;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small span {
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 53px;
+  background-image: url(../img/detail/pro_b_6.png);
+  background-repeat: no-repeat;
+  margin: 7px 16px 1px 1px;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small #left {
+  left: 0;
+  top: 0;
+  background-position: -1px -686px;
+}
+#middle .wrap #tab1 .topCont .topContLeft .small #right {
+  right: 25px;
+  top: 0;
+  background-position: -25px -686px;
+}
+#middle .wrap #tab1 .topCont {
+  padding-bottom: 30px;
+}
+#middle .wrap #tab1 .topCont .topContRight {
+  float: left;
+  *zoom: 1;
+}
+#middle .wrap #tab1 .topCont .topContRight:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .wrap #tab1 .topCont .topContRight h2 {
+  padding-bottom: 10px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain {
+  padding-right: 25px;
+  border-right: 1px solid #ccc;
+  float: left
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .intro {
+  width: 72px;
+  color: #484848;
+  font-size: 12px;
+  display: inline-block;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .hei {
+  height: 30px;
+  line-height: 30px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .aft {
+  width: 400px;
+  font-size: 12px;
+  display: inline-block;
+  color: #484848;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .reason {
+  display: inline-block;
+  font-size: 10px;
+  padding-top: 50px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .support {
+  
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .support:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .support .intro {
+  display: block;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .insert {
+  width: 25px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .num {
+  padding-top: 15px;
+  *zoom: 1;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .num:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .num .intro {
+  display: block;
+  float: left;
+  line-height: 30px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain #num {
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  outline: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  float: left;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .zc{
+	overflow: hidden;
+	padding-top: 15px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .zc .p1{
+	color: #666;
+	font-size: 13px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .zc .p2{
+	color: #666;
+	font-size: 13px;
+	padding-left: 20px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .pprice {
+  padding-top: 15px;
+  overflow: hidden;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .pprice .yuan {
+  color: #FF6600;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: -8px;
+  padding-right: 20px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .pprice .salepr {
+  font-size: 35px;
+  margin-top: -20px;
+  font-weight: 800;
+  color: #FF6600;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy {
+  width: 440px;
+  height: 100px;
+  padding: 20px;
+  background: #f0f0f0;
+  margin-top: 20px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy .nowBuy {
+  display: inline-block;
+  width: 214px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  color: #FFF;
+  background: #FF6600;
+  font-size: 20px;
+  cursor: pointer;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy .nowBuy:hover {
+  background: orange;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy .nowBuy > a {
+  color: #FFF;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy #insertCars {
+  background: #1c429a;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy #insertCars:hover {
+  background: #295dd7;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy .in {
+  margin-top: 18px;
+}
+#middle .wrap #tab1 .topCont .topContRight .explain .buy .in img {
+  display: block;
+}
+#middle .wrap #tab1 .topCont .topContRight .reputation {
+  width: 200px;
+  float: left;
+}
+#middle .wrap #tab1 .topCont .topContRight .reputation img {
+  display: block;
+  margin-left: 5px;
+}
+.navBg {
+  border-top: 3px solid #FF6600;
+  background: #fff;
+  font-weight: 600;
+}
+#concent{
+	overflow: hidden;
+}
+#concent .a1{
+	float: left;
+	padding-left: 20px;
+	width: 80%;
+	padding-top: 20px;
+}
+#concent .a1 h1{
+	padding: 20px 0;
+}
+#concent .a2{
+	float: right;
+	overflow: hidden;
+}
+#concent .a2{
+	color: #666;
+	overflow: hidden;
+	font-size: 12px;
+}
+#concent .a2 .b1{
+	color: blue;
+}
+#top{
+	position: fixed;
+	width: 12px;
+	height: 30px;
+	bottom: 50px;
+	right: 10px;
+	overflow: hidden;
+	font: 20px/2 "微软雅黑";
+	cursor: pointer;
+	background: blue;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=detail.css.map */

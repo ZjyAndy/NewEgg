@@ -1,0 +1,343 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+table{
+	border: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	border: none;
+}
+
+body,
+html {
+	font-family: "宋体";
+	font-size: 14px;
+	overflow-x: hidden;
+}
+
+.center {
+	width: 1199px;
+	margin: 0 auto;
+}
+
+#header .a1 {
+	overflow: hidden;
+	background: #f1f1f1;
+	font-size: 12px;
+	color: #484848;
+}
+#header .a1 a{
+	color: #666666;
+}
+#header .a1 .center {
+	position: relative;
+}
+
+#header .a1 .b1 {
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+}
+
+#header .a1 .b1 li {
+	float: left;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+#header .a1 li a:hover {
+	text-decoration: underline;
+}
+
+#header .a1 .b1 li.c1 {
+	background: url('../img/public/tl.png') no-repeat 6px 1px;
+	margin-right: 12px;
+}
+
+#header .a1 .b1 li.c1:hover {
+	background: url('../img/public/tl.png') no-repeat 6px -19px;
+}
+
+#header .a1 .b1 li.c2 {
+	background: url('../img/public/tl.png') no-repeat 6px -43px;
+}
+
+#header .a1 .b1 li.c2:hover {
+	background: url('../img/public/tl.png') no-repeat 6px -63px;
+	color: red;
+}
+
+#header .a1 .b2 {
+	overflow: hidden;
+	float: right;
+}
+
+#header .a1 .b2 li {
+	text-align: center;
+	float: right;
+	cursor: pointer;
+	padding: 0 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#header .a1 .b2 li.c1:hover {
+	background: #fff;
+}
+
+#header .a1 .b2 li.c2:hover {
+	background: #fff;
+}
+
+#header .a2 .center {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background: url(../img/public/p2.png) no-repeat;
+}
+
+#header .a2 .center .b1 {
+	margin-left: 31%;
+	overflow: hidden;
+}
+
+#header .a2 .center .b1 .c1 {
+	width: 340px;
+	padding: 8px 0;
+	border: 2px solid #ff6600;
+	display: block;
+	float: left;
+}
+
+#header .a2 .center .b1 .c2 {
+	width: 100px;
+	padding: 7px 0;
+	border: 2px solid #ff6600;
+	background: #ff6600;
+	color: #fff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-left: -4px;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+
+#header .a2 .center .b2 ul {
+	overflow: hidden;
+	margin-left: 31%;
+}
+
+#header .a2 .center .b2 ul li {
+	margin: 5px 0;
+	padding: 0 16px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #877a76;
+}
+
+#header .a2 .center .b2 ul li a {
+	color: #877a76;
+	cursor: pointer;
+}
+
+#header .a2 .center .b2 ul li a:hover {
+	text-decoration: underline;
+}
+#header .a2 .center .b2 .c1{
+	border: none;
+}
+/*头部二级菜单*/
+#fw {
+	position: absolute;
+	right: 0;
+	top: 23px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: none;
+}
+
+#fw .a1 {
+	font-weight: 600;
+	color: orange;
+	font-size: 14px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+
+#fw .a2 {
+	font-weight: 600;
+	font-size: 13px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+
+#fw .a3 {
+	padding-left: 5px;
+}
+
+#fw .a4 {
+	background: #38f;
+	color: #fff;
+	margin-right: 10px;
+	padding: 1px;
+	cursor: pointer;
+}
+
+#fw .a5 {
+	background: #38f;
+	color: #fff;
+	padding: 1px;
+	cursor: pointer;
+}
+
+#myd {
+	position: absolute;
+	right: 150px;
+	top: 23px;
+	padding: 10px 20px;
+	background: #fff;
+	display: none;
+	border: 1px solid #ccc;
+}
+
+#myd a {
+	text-decoration: underline;
+	color: #38f;
+}
+
+/*头部结束*/
+/*菜单栏开始*/
+#main .a1{
+	width: 100%;
+	background: #10286c;
+}
+#main .a1 .center{
+	overflow: hidden;
+	color: #fff;
+}
+#main .a1 .center p,ul,span{
+	float: left;
+	overflow: hidden;
+}
+#main .a1 .center a{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+#main .a1 .center ul li{
+	float: left;
+}
+#main .a1 .center p{
+	padding: 12px 0;
+	background: #ff6600;
+	padding-left: 20px;
+	padding-right: 70px;
+	cursor: pointer;
+}
+#main .a1 .center ul li{
+	padding: 9px 20px;
+	cursor: pointer;
+}
+#main .a1 .center ul{
+	padding-left: 10px;
+}
+#main .a1 .center span{
+	font-size: 12px;
+}
+#main .a1 .center .b1{
+	display: block;
+	float: left;
+	background: #FF6600;
+	margin-left: 22%;
+	padding: 12px 0;
+	padding-left: 15px;
+	padding-right: 40px;
+	cursor: pointer;
+	border-right: 1px solid #ccc;
+}
+#main .a1 .center .b2{
+	background: #FF6600;
+	padding: 13px 0;
+	padding-left: 15px;
+	padding-right: 50px;
+	cursor: pointer;
+}
+#footer .a1{
+	overflow: hidden;
+}
+#footer .a1>ul{
+	float: left;
+	padding: 10px 80px;
+	border-right: 1px dashed #ccc;
+}
+#footer .a1>ul.none{
+	border: none;
+}
+#footer .a1>ul li{
+	margin-bottom: 10px;
+	text-align: center;
+}
+#footer .a1>ul li a{
+	font-size: 12px;
+	color: #666;
+	cursor: pointer;
+}
+#footer .a1>ul li a:hover{
+	text-decoration: underline;
+}
+#footer .a1>ul li.b1 a{
+	font-size: 14px;
+	color: #666;
+	font-weight: 600;
+}
+#footer .a1>ul li.b1{
+	margin-bottom: 20px;	
+}
+#footer .a2{
+	margin-top: 30px;
+	overflow: hidden;
+	text-align: center;
+}
+#footer .a2 .c1{
+	overflow: hidden;
+	padding-left: 250px;
+}
+#footer .a2 .c1 img{
+	display: block;
+	float: left;
+	margin: 10px 5px;
+}
+#footer .a2 p{
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+#footer .a2 p a{
+	margin-right: 10px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #666;
+}
+#footer .a2 p a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
