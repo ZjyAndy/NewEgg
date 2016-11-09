@@ -422,10 +422,6 @@ $(function(){
 		$('#form>div').css('display' , 'none');
 	});
 });
-//$(function(){
-//	alert('苹果七手机处点击进入商品单页');
-//})
-
 $(function(){
 	$.ajax({
 		type:"get",
@@ -439,7 +435,7 @@ $(function(){
 			$('#count').html(str);
 		}
 	});
-})
+});
 
 
 
@@ -448,7 +444,27 @@ $(function() {
 		type:"GET",
 		url:"data/form.json",
 		success:function( data ){
-			
+			var str = '';
+			var html = '';
+			var main = '';
+			for ( var key in data ) {
+				var child = data[key]["th"];
+//				console.log(child);
+				for ( var k in child ) {
+//					console.log(k);
+					var td = child[k]["td"];
+					var tr = child[k]["tr"];
+//					console.log(td);
+					for ( var i in td ) {
+						str += '<a>'+td[i]+'</a>&nbsp;|&nbsp;'
+					};
+					html = '<div><a class="first">'+ tr +'</a><p>'+ str+'</p></div>';
+					console.log(html)
+				};
+//				main += html;
+//					console.log(main);
+//				$('.list'+key).html(main);
+			};
 		}
 	});
 });

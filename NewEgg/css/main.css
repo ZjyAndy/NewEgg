@@ -75,7 +75,8 @@ img {
 }
 
 #content .center .a1 .b2 .c1 .d1 {
-	padding: 10px 0 10px 10px;
+	margin: 10px 0 10px 10px;
+	padding: 0;
 }
 
 #content .center .a1 .b2 .c1 .d1 img {
@@ -107,7 +108,7 @@ img {
 }
 
 #content .center .a1 .b2 .c2 .d1 a {
-	margin-left: 250px;
+	margin-left: 200px;
 	font-size: 12px;
 	font-weight: 600;
 }
@@ -2076,10 +2077,39 @@ img {
 	cursor: pointer;
 	margin-bottom: 10px;
 }
-
-
-
-
+#content .center{
+	position: relative;
+}
+#content .center .list{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	background: #fff;
+	z-index: 1;
+}
+#content .center .list>div>div{
+	padding: 20px 10px;
+	overflow: hidden;
+}
+#content .center .list>div>div p{
+	width: 550px;
+	float: left;
+	
+}
+#content .center .list>div>div a{
+	color: #666;
+	font-size: 12px;
+	cursor: pointer;
+}
+#content .center .list>div>div a.first{
+	font-weight: 600;
+	padding: 2px 15px;
+	display: block;
+	float: left;
+}
+#content .center .list>div>div a:hover{
+	text-decoration: underline;
+}
 
 
 

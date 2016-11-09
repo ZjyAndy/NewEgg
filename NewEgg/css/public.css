@@ -102,7 +102,7 @@ html {
 
 #header .a2 .center {
 	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	background: url(../img/public/p2.png) no-repeat;
 }
 
@@ -224,11 +224,14 @@ html {
 	width: 100%;
 	background: #10286c;
 }
+#header .a2 .center .b2{
+	overflow: hidden;
+}
 #main .a1 .center{
 	overflow: hidden;
 	color: #fff;
 }
-#main .a1 .center p,ul,span{
+#main .a1 .center p{
 	float: left;
 	overflow: hidden;
 }
@@ -273,6 +276,8 @@ html {
 	padding-left: 15px;
 	padding-right: 50px;
 	cursor: pointer;
+	float: left;
+	display: block;
 }
 #footer .a1{
 	overflow: hidden;

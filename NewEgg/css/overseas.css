@@ -31,6 +31,12 @@ html,
 body {
   height: 100%;
 }
+#header .a2 .center .sy{
+	float: left;
+	width: 220px;
+	height: 70px;
+	cursor: pointer;
+}
 .content {
   width: 970px;
   margin: auto;

@@ -35,7 +35,17 @@ $(function(){
 		//放大镜
 		bigbig();
 	})
-}) 
+});
+$(function(){
+	$('#top').hover(function(){
+		$(this).css('width' , '100px');
+	} , function(){
+		$(this).css('width' , '12px');
+	});
+	$('#top').click(function(){
+		$("body,html").animate({scrollTop : 0} , 1000)
+	})
+});
 function search(name){
 	var ls = location.search;
 	ls = ls.replace(/^\?/,"");

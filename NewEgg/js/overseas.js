@@ -70,4 +70,9 @@ $(function(){
 			});
 		});
 	};
+});
+$(function(){
+	$('#sy').click(function(){
+		open("index.html");
+	})
 })
