@@ -136,7 +136,7 @@ img {
 	float: left;
 	width: 170px;
 	font-size: 13px;
-	padding: 15px 10px;
+	padding: 0 10px;
 }
 
 #content .center .a1 .b2 .c2 .d2 div img {
@@ -149,7 +149,9 @@ img {
 	color: #ff6600;
 	font-weight: 600;
 }
-
+#content .center .a1 .b2 .c2 .d2 div p a{
+	font: 13px/1 "微软雅黑";
+}
 #content .center .a1 .b2 .c2 .d2 div a {
 	font-family: "宋体";
 	color: #666;
@@ -272,7 +274,7 @@ img {
 }
 
 #content .center .a2 .hotLeft .hotPic> ul> li .title {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 #content .center .a2 .hotLeft .hotPic> ul> li .title> a:hover {
